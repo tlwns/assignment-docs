@@ -51,7 +51,7 @@ test(compose(addN(3), addN(4))(11), 18)
 
 ### Lists
 
-* `double` takes an interger list `l`
+* `double` takes an integer list `l`
   and returns a list whose elements are the doubles of the elements of `l`.
 ```scala
 test(double(List(1, 2, 3)), List(2, 4, 6))
